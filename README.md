@@ -37,6 +37,15 @@ chmod 644 /system/etc/security/cacerts/HASH.0
 exit
 adb reboot
 ```
+
+## 9 - At this point, you can interpect any request from your virual android device!
+
+# How to get some app from Google Playstore:
+
+### Install this extension:
+https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfeikkmpbjegm
+### Will be required that you fill a input with a link app from Google Play Store: https://play.google.com/store
+#### E.g: https://play.google.com/store/apps/details?id=com.facebook.katana
 ----
 References
 https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
