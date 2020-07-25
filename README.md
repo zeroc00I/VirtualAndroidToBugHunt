@@ -21,7 +21,7 @@ Download your burp certificate accessing http://127.0.0.1:8080 using your favori
 ## 6 - Click on CA Certificate on top right of burp local page
 Doing the download of cacert.der file.
 
-## 7 - Following commands have to do inside of your terminal, in the same path that you have the cacert.der
+## 7 - Following commands have to be made inside of your terminal, in the same path that you have the cacert.der
 ```
 openssl x509 -inform DER -in cacert.der -out cacert.pem
 openssl x509 -inform PEM -subject_hash_old -in cacert.pem |head -1 (Will be displayed a HASH)
