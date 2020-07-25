@@ -1,4 +1,4 @@
-#How to install burp cert on android device using adb
+# How to install burp cert on android device using adb
 
 ## 1 - Go to Android Studio website and do download of the project (865 MB):
 https://developer.android.com/studio?hl=pt-br
