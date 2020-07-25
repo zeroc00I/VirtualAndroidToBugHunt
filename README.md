@@ -40,9 +40,7 @@ adb reboot
 ----
 References
 https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
-----
-Test latter
-https://github.com/budtmo/docker-android
+
 
 
 
