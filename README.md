@@ -18,8 +18,8 @@ https://developer.android.com/studio?hl=pt-br
 ## 5 - Through your local computer (outside the android device) 
 Download your burp certificate accessing http://127.0.0.1:8080 using your favorite browser
 
-## 6 - Click on CA Certificate on top right of burp local page, doing the download of cacert.der file.
-
+## 6 - Click on CA Certificate on top right of burp local page
+Doing the download of cacert.der file.
 
 ## 7 - Following commands have to do inside of your terminal, in the same path that you have the cacert.der
 ```
