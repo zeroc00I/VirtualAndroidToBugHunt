@@ -3,7 +3,7 @@
 ## 1 - Go to Android Studio website and do download of the project (865 MB):
 https://developer.android.com/studio?hl=pt-br
 
-## 2 - After download th android studio, you have to download an image to your android simulator doing the following command:
+## 2 - After download the android studio, you have to download an image to your android simulator doing the following command:
 ```
 ~/Android/Sdk/tools/bin/sdkmanager system-images;android-23;google_apis;x86
 ```
