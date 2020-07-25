@@ -1,13 +1,13 @@
 # How to install burp cert on android device using adb
 
-## 1 - Go to Android Studio website and do download of the project (865 MB):
+## 1 - Go to Android Studio website and download of the project (865 MB):
 https://developer.android.com/studio?hl=pt-br
 
-## 2 - After download the android studio, you have to download an image to your android simulator doing the following command:
+## 2 - After downloading the android studio, you have to download an image to your android simulator doing the following command:
 ```
 ~/Android/Sdk/tools/bin/sdkmanager system-images;android-23;google_apis;x86
 ```
-## 3 - At this step, you will be able to create your AVD (Android Virtual Device), doing the command bellow:
+## 3 - In this step, you will be able to create your AVD (Android Virtual Device), doing the command bellow:
 ```
 ~/Android/Sdk/tools/bin/avdmanager create avd -n test -k "system-images;android-23;google_apis;x86" -b x86 -c 100M -d 7 -f
 ```
@@ -19,9 +19,9 @@ https://developer.android.com/studio?hl=pt-br
 Download your burp certificate accessing http://127.0.0.1:8080 using your favorite browser
 
 ## 6 - Click on CA Certificate on top right of burp local page
-Doing the download of cacert.der file.
+Downloading the cacert.der file.
 
-## 7 - Following commands have to be made inside of your terminal, in the same path that you have the cacert.der
+## 7 - The following commands have to be made inside of your terminal, in the same path that you have the cacert.der
 ```
 openssl x509 -inform DER -in cacert.der -out cacert.pem
 openssl x509 -inform PEM -subject_hash_old -in cacert.pem |head -1 (Will be displayed a HASH)
@@ -44,7 +44,7 @@ adb reboot
 
 ### Install this extension:
 https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfeikkmpbjegm
-### Will be required that you fill a input with a link app from Google Play Store: https://play.google.com/store
+### It will be required that you fill an input with a link app from Google Play Store: https://play.google.com/store
 #### E.g: https://play.google.com/store/apps/details?id=com.facebook.katana
 ----
 References
