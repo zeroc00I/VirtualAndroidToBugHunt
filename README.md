@@ -50,6 +50,7 @@ https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfei
 References
 https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
 
-
+Greetings to SK o/
+https://github.com/Sh4d0wKnuckl3s
 
 
