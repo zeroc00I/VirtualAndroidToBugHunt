@@ -5,7 +5,12 @@ https://developer.android.com/studio?hl=pt-br
 
 ## 2 - After downloading the android studio, you have to download an image to your android simulator doing the following command:
 ```
-~/Android/Sdk/tools/bin/sdkmanager system-images;android-23;google_apis;x86
+~/Android/Sdk/tools/bin/sdkmanager install "system-images;android-23;google_apis;x86"
+```
+## You can list all images availables using: 
+```
+~/Android/Sdk/tools/bin/sdkmanager --list --verbose
+
 ```
 ## 3 - In this step, you will be able to create your AVD (Android Virtual Device), doing the command bellow:
 ```
