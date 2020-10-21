@@ -43,7 +43,7 @@ exit
 adb reboot
 ```
 
-## 9 - At this point, you can interpect any request from your virual android device!
+## 9 - At this point, you can intercept any request from your virual android device!
 
 # How to get some app from Google Playstore:
 
