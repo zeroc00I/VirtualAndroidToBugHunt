@@ -1,7 +1,12 @@
 # How to install burp cert on android device using adb
 
-Requirements:
-apt-get install android-sdk
+### Requirements:
+
+1. apt-get install android-sdk
+2. https://developer.android.com/studio#command-tools OR
+```
+From Android Studio --> SDK Manager --> Check "Show Obsolete packages" --> Download platform-tools
+```
 
 ## 1 - Go to Android Studio website and download of the project (865 MB):
 https://developer.android.com/studio?hl=pt-br
