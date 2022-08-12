@@ -3,9 +3,9 @@
 ### Requirements:
 
 1. apt-get install android-sdk
-2. https://developer.android.com/studio#command-tools OR
+2. 
 ```
-From Android Studio --> SDK Manager --> Check "Show Obsolete packages" --> Download platform-tools
+From Android Studio --> SDK Manager --> Check "Show Obsolete packages" --> Download platform-tools and cmdline-tools
 ```
 
 ## 1 - Go to Android Studio website and download of the project (865 MB):
@@ -13,16 +13,16 @@ https://developer.android.com/studio?hl=pt-br
 
 ## 2 - After downloading the android studio, you have to download an image to your android simulator doing the following command:
 ```
-~/Android/Sdk/tools/bin/sdkmanager install "system-images;android-23;google_apis;x86"
+~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager install "system-images;android-23;google_apis;x86"
 ```
 ## You can list all images availables using: 
 ```
-~/Android/Sdk/tools/bin/sdkmanager --list --verbose
+~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager --list --verbose
 
 ```
 ## 3 - In this step, you will be able to create your AVD (Android Virtual Device), doing the command bellow:
 ```
-~/Android/Sdk/tools/bin/avdmanager create avd -n test -k "system-images;android-23;google_apis;x86" -b x86 -c 100M -d 7 -f
+~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager create avd -n test -k "system-images;android-23;google_apis;x86" -b x86 -c 100M -d 7 -f
 ```
 ## 4 - Run your virtual device: 
 ```
