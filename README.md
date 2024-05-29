@@ -13,7 +13,7 @@ https://developer.android.com/studio?hl=pt-br
 
 ## 2 - After downloading the android studio, you have to download an image to your android simulator doing the following command:
 ```
-~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager --install "system-images;android-23;google_apis;x86"
+~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager "system-images;android-23;google_apis;x86"
 ```
 ## You can list all images availables using: 
 ```
